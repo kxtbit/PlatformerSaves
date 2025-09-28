@@ -71,6 +71,7 @@ jobs:
           cli: "latest"
           sdk: "nightly"
           export-pdb: true
+          bundle-pdb: true
           target: ${{ matrix.config.target }}
           build-config: ${{ matrix.config.build-type || 'Release' }}
 
